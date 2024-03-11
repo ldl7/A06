@@ -18,7 +18,7 @@ main h1 {
 }
 main h2 {
 	color: var(--global-color-1);
-	font-size: 6000%;
+	font-size: 900%;
 	color: #800000;
 	margin-left: 30px;
 }
