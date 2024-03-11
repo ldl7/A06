@@ -1,7 +1,13 @@
+global-color-1
+{
+	color:#800000;
+}
+
 /* the styles for the elements */
 body {
 	font-family: Arial, Helvetica, sans-serif;
     font-size: 100%;
+	font-style: normal
 }
 
 /* the styles for the header */
@@ -15,24 +21,31 @@ main {
 }
 main h1 {
 	font-size: 150%;
+	font-style: normal
 }
 main h2 {
 	color: var(--global-color-1);
-	font-size: 900%;
+	font-size: 130%;
 	color: #800000;
 	margin-left: 30px;
+	font-style: normal
 }
 main h3 {
 	font-size: 130%;
 	font-style: italic;
-	margin-left: 310px;
+	margin-left: 30px;
+	font-style: normal
 }
+
 a:hover{
 	font-style: italic;
+}
 a:focus{
 	font-style: italic;
 }
-
+.shadow {
+	text-shadow: -2px -2px 0px #800000;
+}
 /* the styles for the footer */
 footer p{
 	text-align: center;
