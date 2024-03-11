@@ -18,10 +18,20 @@ main h1 {
 }
 main h2 {
 	color: var(--global-color-1);
-	font-size: 130%;
+	font-size: 600%;
+	color: #800000;
+	margin-left: 30px;
 }
 main h3 {
-	font-size: 105%;
+	font-size: 130%;
+	font-style: italic;
+	margin-left: 310px;
+}
+a:hover{
+	font-style: italic;
 }
 
 /* the styles for the footer */
+footer p{
+	text-align: center;
+}
