@@ -18,7 +18,7 @@ main h1 {
 }
 main h2 {
 	color: var(--global-color-1);
-	font-size: 170%;
+	font-size: 600%;
 	color: #800000;
 	margin-left: 30px;
 }
@@ -32,6 +32,6 @@ a:hover{
 }
 
 /* the styles for the footer */
-main footer p{
+footer p{
 	text-align: center;
 }
